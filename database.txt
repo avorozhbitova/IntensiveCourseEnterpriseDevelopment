@@ -10,4 +10,4 @@ message
 - id INT NOT NULL AUTO_INCREMENT
 - user_id INT NOT NULL
 - msg_time DATETIME NOT NULL
-- message VARCHAR(255) NOT NULL
+- message TEXT NOT NULL
