@@ -33,7 +33,7 @@ public class User {
     private String name;
 
     @OneToMany (fetch = FetchType.LAZY,
-            mappedBy = "message",
+            mappedBy = "user",
             cascade = CascadeType.ALL)
     private List<Message> messages;
 }
