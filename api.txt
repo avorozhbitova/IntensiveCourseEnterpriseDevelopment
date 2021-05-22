@@ -31,13 +31,13 @@ GET /api/messages - получение списка сообщений
     "messages" : [
     {
         "user_name": Ваня Иванов;
-        "message": "Привет"
-        "message_time": "12:56 01.02.2021"
+        "text": "Привет"
+        "send_time": "12:56 01.02.2021"
     },
     {
         "user_name": Коля Петров;
-        "message": "Как дела"
-        "message_time": "21:15 02.02.2021"
+        "text": "Как дела"
+        "send_time": "21:15 02.02.2021"
     }
     ]
 }

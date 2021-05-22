@@ -27,8 +27,8 @@ public class Message {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    @Column(name = "message_time")
-    private Date messageTime;
+    @Column(name = "send_time")
+    private Date sendTime;
 
-    private String message;
+    private String text;
 }
